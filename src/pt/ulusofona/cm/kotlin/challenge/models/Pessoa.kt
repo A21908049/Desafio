@@ -3,8 +3,8 @@ package pt.ulusofona.cm.kotlin.challenge.models
 import java.util.*
 
 class Pessoa (val nome: String, var veiculos: List <Veiculo>, val dataDeNascimento: Date){
-    var carta: Carta ?= null
-    var posica: Posicao ?= null
+    var carta: Carta = Carta()
+    var posicao: Posicao = Posicao(0,0)
 
     fun comprarVeiculo(veiculo: Veiculo){
 
