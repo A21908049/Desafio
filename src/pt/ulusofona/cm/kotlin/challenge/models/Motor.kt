@@ -1,4 +1,9 @@
 package pt.ulusofona.cm.kotlin.challenge.models
 
-class Motor {
+import java.util.*
+
+class Motor ( var cavalos: Int, var cilindrada: Int){
+
+    var ligado: Boolean = false
+
 }
